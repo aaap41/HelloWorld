@@ -1,0 +1,8 @@
+	//BigDecimal相加
+  public String testBigDecimal() {
+		trnsAmnt1=new BigDecimal("2000.02");
+		trnsAmnt2=new BigDecimal("3000.02");
+		trnsAmnt3=MathUtil.decimalAdd(trnsAmnt1, trnsAmnt2);
+		System.out.println(trnsAmnt3);
+	return null;
+	}
